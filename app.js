@@ -14,11 +14,11 @@ Sequelize.initDb();
 app.get('/',(req,res)=>{
     res.json('gooood work');
 })
-require('./src/api/finAllPokemon')(app);
-require('./src/api/findPokemonByPk')(app)
-require('./src/api/createPokemon')(app)
-require('./src/api/updatePokemon')(app)
-require('./src/api/deletePokemon')(app)
+require('./src/routes/finAllPokemon')(app);
+require('./src/routes/findPokemonByPk')(app)
+require('./src/routes/createPokemon')(app)
+require('./src/routes/updatePokemon')(app)
+require('./src/routes/deletePokemon')(app)
 
 
 app.use((req,res)=>{
