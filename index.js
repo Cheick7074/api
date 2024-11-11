@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 
 Sequelize.initDb();
 
-app.get('/',(req,res)=>{
+app.get('/',(req,res)=>{ 
     res.json('gooood work');
 })
 require('./src/routes/finAllPokemon')(app);

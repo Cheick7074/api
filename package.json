@@ -2,10 +2,10 @@
   "name": "nodetest",
   "version": "1.0.0",
   "description": "try for node by myself",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node --no-deprecation app.js",
-    "dev": "NODE_ENV=development nodemon app.js"
+    "start": "node --no-deprecation index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
   },
   "author": "cheick",
   "license": "ISC",
