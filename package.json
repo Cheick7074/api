@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --no-deprecation app.js",
     "dev": "NODE_ENV=development nodemon app.js",
-    "vercel-build":"echo hello"
+    "vercel-build": "echo hello"
   },
   "author": "cheick",
   "license": "ISC",
@@ -23,7 +23,8 @@
     "mysql2": "^3.11.4",
     "sequelize": "^6.37.3",
     "serve": "^6.5.8",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "vercel": "^37.14.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
