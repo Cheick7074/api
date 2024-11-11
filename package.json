@@ -2,10 +2,11 @@
   "name": "nodetest",
   "version": "1.0.0",
   "description": "try for node by myself",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node --no-deprecation index.js",
-    "dev": "NODE_ENV=development nodemon index.js"
+    "start": "node --no-deprecation app.js",
+    "dev": "NODE_ENV=development nodemon app.js",
+    "vercel-build":"echo hello"
   },
   "author": "cheick",
   "license": "ISC",
